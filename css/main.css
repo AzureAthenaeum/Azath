@@ -18,7 +18,7 @@ html{
   padding: 5%;
 }
 
-.audio{
+.stack{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
