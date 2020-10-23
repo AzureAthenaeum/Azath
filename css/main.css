@@ -1,0 +1,25 @@
+html{
+  background-color: black;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 1.5%;
+  font-size: 24px;
+  text-align: center;
+  outline: 2px solid black;
+}
+
+.row {
+  display: flex;
+  flex-direction: space-between;
+  padding: 5%;
+}
+
+.audio{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
