@@ -83,5 +83,5 @@ class PinLogin {
 new PinLogin({
     el: document.getElementById("mainPinLogin"),
     loginEndpoint: "login.php",
-    redirectTo: "dashboard.html"
+    redirectTo: "db.html"
 });
