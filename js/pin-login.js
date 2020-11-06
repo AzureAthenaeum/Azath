@@ -70,7 +70,7 @@ class PinLogin {
             fetch(this.loginEndpoint, {
                 method: "post",
                 headers: {
-                    "Content-Type": "multipart/form-data"
+                    "Content-Type": "application/x-www-form-urlencoded"
                 },
                 body: `pincode=${this.value}`
             }).then(response => {

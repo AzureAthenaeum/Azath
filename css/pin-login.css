@@ -45,7 +45,7 @@ body {
 }
 
 .pin-login__text--error {
-  color: #red;
+  color: red;
   background: rgb(144,24,24,0.25);
   animation-name: loginError;
   animation-duration: 0.1s;
