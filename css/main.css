@@ -1,6 +1,18 @@
 html{
-  background-color: #111;
+  background-color: blu;
+  background-color: black;
+  animation-name: blu;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
   color: white;
+}
+
+@keyframes blu {
+  0% {background-color: black;}
+  25%  {background-color: rgb(0,117,160);}
+  50%  {background-color: white;}
+  75%  {background-color: blue;}
+  100%  {background-color: black;}
 }
 
 .column {
@@ -9,7 +21,6 @@ html{
   padding: 1.5%;
   font-size: 24px;
   text-align: center;
-  outline: 2px solid #111;
 }
 
 .row {
