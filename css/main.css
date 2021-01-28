@@ -4,7 +4,15 @@ html{
   animation-name: blu;
   animation-duration: 20s;
   animation-iteration-count: 1;
+}
+
+footer{
   color: white;
+}
+
+.tag {
+  color: blu;
+  font-size: 1px;
 }
 
 @keyframes blu {
